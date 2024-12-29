@@ -1,42 +1,114 @@
-# Laravel 9 & React js - Ecommerce application
+EmpowerMART: Multi-Vendor E-Commerce Platform
+EmpowerMART is a multi-vendor e-commerce platform developed to empower rural women entrepreneurs by providing them with a digital marketplace, skill-building resources, and mentorship opportunities. Built with Laravel 9 (backend) and React.js (frontend), the platform bridges the gap between rural businesses and global markets.
 
-## Screenshots
+Features
+User Roles
+Admin: Manage categories, tags, and products.
+Customer: Browse, shop, and place orders.
+Core Functionality
+Admin Dashboard:
+Category Management: Create, edit, and delete categories.
+Tag Management: Manage product tags.
+Product Management: Upload, edit, and delete products with detailed specifications.
+Customer Dashboard:
+Shopping Features: Sort and filter products by price or popularity.
+Order Management: Add to cart, checkout, and view order history.
+Frontend Pages:
+Home Page: Highlights featured categories and products.
+Shop Page: Provides product filtering and sorting.
+Categories Page: Organized view of products by category.
+Tech Stack
+Backend: Laravel 9
+Frontend: React.js
+Database: MySQL
+Styling: Bootstrap
+Version Control: GitHub
+Installation and Setup
+Prerequisites
+PHP >= 8.1
+Composer
+Node.js and npm
+MySQL
+Steps
+Clone the Repository:
 
-![preview img](/preview.png)
+bash
+Copy code
+git clone https://github.com/AYESHA19SIDDIQA/EmpowerMART-WebProject.git
+cd EmpowerMART-WebProject
+Install Backend Dependencies:
 
-## Run Locally
+bash
+Copy code
+composer install
+Install Frontend Dependencies:
 
-Clone the project
+bash
+Copy code
+npm install
+Set Up Environment Variables:
 
-```bash
-  git clone https://github.com/abdulaziz-m5u/ecommerce-youtube.git project-name
-```
+Copy .env.example to .env:
+bash
+Copy code
+cp .env.example .env
+Configure database credentials in .env.
+Generate Application Key:
 
-Go to the project directory
+bash
+Copy code
+php artisan key:generate
+Run Migrations and Seed Data:
 
-```bash
-  cd project-name
-```
+bash
+Copy code
+php artisan migrate:fresh --seed
+Link Storage:
 
--   Copy .env.example file to .env and edit database credentials there
+bash
+Copy code
+php artisan storage:link
+Start the Development Server:
 
-```bash
-    composer install
-```
+bash
+Copy code
+php artisan serve
+Project Structure
+Backend: Laravel 9 handles server-side logic, including authentication and database interactions.
+Frontend: React.js delivers dynamic and interactive user interfaces.
+Database: MySQL stores user, product, and order data.
+Contribution Guidelines
+Fork the repository.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature-name
+Commit your changes:
+bash
+Copy code
+git commit -m "Add feature-name"
+Push to the branch:
+bash
+Copy code
+git push origin feature-name
+Submit a pull request.
+License
+This project is licensed under the MIT License.
 
-```bash
-    php artisan key:generate
-```
+Contact
+For any queries or collaboration requests, reach out to Ayesha Siddiqua.
 
-```bash
-    php artisan artisan migrate:fresh --seed
-```
 
-```bash
-    php artisan storage:link
-```
+2/2
 
-#### Login
 
--   email = admin@example.com
--   password = 123
+
+
+
+
+
+
+
+
+
+
