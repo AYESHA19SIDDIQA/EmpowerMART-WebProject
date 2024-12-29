@@ -95,20 +95,3 @@ Submit a pull request.
 License
 This project is licensed under the MIT License.
 
-Contact
-For any queries or collaboration requests, reach out to Ayesha Siddiqua.
-
-
-2/2
-
-
-
-
-
-
-
-
-
-
-
-
